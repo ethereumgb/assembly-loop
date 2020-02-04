@@ -1,0 +1,23 @@
+{
+  "name": "assembly-loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereumgb/assembly-loop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereumgb/assembly-loop/issues"
+  },
+  "homepage": "https://github.com/ethereumgb/assembly-loop#readme",
+  "devDependencies": {
+    "truffle": "^5.1.11"
+  }
+}
