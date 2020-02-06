@@ -21,7 +21,8 @@
     "bn.js": "^5.1.1",
     "chai": "^4.2.0",
     "chai-bn": "^0.2.0",
-    "truffle": "^5.1.11"
+    "truffle": "^5.1.11",
+    "@openzeppelin/test-helpers": "^0.5.4"
   },
   "dependencies": {}
 }

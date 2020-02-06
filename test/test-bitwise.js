@@ -1,5 +1,5 @@
 const BitWise = artifacts.require('BitWise');
-const BN = require('bn.js');
+const { BN } = require('@openzeppelin/test-helpers');
 const chaiBN = require('chai-bn')(BN); 
 require('chai').use(chaiBN);
 const { expect } = require('chai');
@@ -20,6 +20,6 @@ contract("BitWise", () =>{
 
         const result = await bitwise.countBitSet(myNumber);
         const resultAsm = await bitwise.countBitSetAsm(myNumber);
-        expect(result).to.be.bignumber.equal(resultAsm, "Result should match");
+        expect(result).to.be.a.bignumber.that.equal(resultAsm, "result should match");
     })
 }) 
